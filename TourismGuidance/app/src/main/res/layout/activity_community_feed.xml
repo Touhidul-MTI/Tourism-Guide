@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.imtilab.tourismguidance.Community_Feed">
+
+    <ListView
+        android:id="@+id/communityfeed_Lv1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="45dp"/>
+    <Button
+        android:id="@+id/communityfeed_b1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Post a Tour"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:onClick="onClicked_communityfeed_b1"/>
+
+</RelativeLayout>

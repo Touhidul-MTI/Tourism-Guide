@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.imtilab.tourismguidance.Food_FragA">
+
+    <ScrollView
+        android:id="@+id/food_fraga_sv1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/food_fraga_tv1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Soleat mediocrem pertinacia in est, mentitum sententiae nec te, ut zril eripuit qui. Verear senserit voluptatibus ut sed, eum an ignota prompta mentitum, sanctus omittam usu cu. Sed et legere melius, essent perpetua in eos, mea graece graeco definitionem cu. Quis paulo labores ut mea, ius tollit consequat gloriatur cu. Veniam aperiri ut vim, vix illum legere cotidieque in. Lorem ipsum dolor sit amet, his legere lobortis ut, pri ut torquatos interpretaris. Tota minimum eos in, ius platonem imperdiet ex. Reque mazim ex per. Facer apeirian quaestio ex per, mel tota incorrupte ei."
+            android:textSize="18sp"
+            android:textColor="#F57700"/>
+    </ScrollView>
+
+</LinearLayout>

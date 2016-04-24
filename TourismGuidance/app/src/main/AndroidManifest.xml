@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.github.imtilab.tourismguidance" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/applogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Community_Post"
+            android:label="TOUR POST" >
+        </activity>
+        <activity
+            android:name=".Community_Feed"
+            android:label="LATEST POSTS" >
+        </activity>
+        <activity
+            android:name=".Community_info"
+            android:label="WHO POSTED" >
+        </activity>
+        <activity
+            android:name=".Place_Informations"
+            android:label="INFORMATION" >
+        </activity>
+        <activity
+            android:name=".Food_Info"
+            android:label="FOODS" >
+        </activity>
+        <activity
+            android:name=".Transport_Info"
+            android:label="TRANSPORTATIONS" >
+        </activity>
+        <activity
+            android:name=".Hotel_Info"
+            android:label="ACCOMODATIONS" >
+        </activity>
+        <activity
+            android:name=".Agency_Info"
+            android:label="AVAILABLE SERVICES" >
+        </activity>
+        <activity android:name=".Product_Info"
+            android:label="PRODUCTS">
+        </activity>
+        <activity android:name=".Suggestion_Info"
+            android:label="SUGGESTIONS AND SECURITY">
+        </activity>
+    </application>
+
+</manifest>

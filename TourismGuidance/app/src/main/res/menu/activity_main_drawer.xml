@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_calender"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="Event Calender" />
+        <item android:id="@+id/nav_community"
+            android:icon="@android:drawable/ic_menu_day"
+            android:title="Communitiy" />
+        <item android:id="@+id/nav_security"
+            android:icon="@android:drawable/ic_lock_idle_lock"
+            android:title="Security" />
+    </group>
+
+    <item android:title="Special User">
+        <menu>
+            <item android:id="@+id/nav_signin"
+                android:icon="@android:drawable/ic_lock_idle_lock"
+                android:title="Sign In" />
+            <item android:id="@+id/nav_signup"
+                android:icon="@android:drawable/ic_partial_secure"
+                android:title="Sign Up"/>
+        </menu>
+    </item>
+
+    <item android:title="Support">
+        <menu>
+            <item android:id="@+id/nav_help"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="Help" />
+
+            <item android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>
